@@ -1,0 +1,871 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*头部导航条*/
+.header-top{
+    width: 1200px;
+    height: 30px;
+  background-color: ghostwhite;
+    margin: 0px auto;
+}
+.header-top-left{
+    width: 300px;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+}
+.header-top-left p{
+    font-size: 12px;
+}
+.header-top-left p a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.header-top-right{
+    width: 450px;
+    float: right;
+}
+.header-top-right ul{
+    list-style-type: none;
+    line-height: 30px;
+}
+.header-top-right ul li{
+    display: inline-block;
+    font-size: 12px;
+}
+.header-top-right ul li a{
+    text-decoration: none;
+}
+.header-top-right ul li span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url("img/indexhead_sprite.png");
+    background-repeat: no-repeat;
+    background-position: -233px -57px;
+}
+.clear{
+    clear: both;
+}
+/*头部导航条结束*/
+/*头部搜索框*/
+.header-search{
+    width: 1200px;
+    height: 100px;
+    margin: 30px auto;
+}
+.header-search-left{
+    width: 210px;
+    height: 100px;
+    float: left;
+}
+.header-search-center{
+    width: 500px;
+    height: 35px;
+    border: 1px solid red;
+    float: left;
+    margin-top: 13px;
+}
+.shang{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+.sou{
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-indent: 5px;
+}
+.suo{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+.mao ul{
+    list-style-type: none;
+}
+.mao ul li{
+    display: inline-block;
+    font-size: 12px;
+    color: #999999;
+}
+.header-search-down{
+    width: 1200px;
+    height: 30px;
+}
+.header-search-down ul{
+  list-style-type: none;
+}
+.header-search-down ul li{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 14px;
+}
+.header-search-down ul .fenlei{
+    width: 210px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.header-search-down ul .fenlei span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url("img/indexhead_sprite.png");
+    background-repeat: no-repeat;
+    background-position: -233px -57px;
+    position: absolute;
+    right:10px;
+    top: 10px;
+}
+.header-search-down ul .san{
+    color: red;
+}
+
+/*头部搜索框结束*/
+/*商品分类*/
+.content-type{
+    width: 100%;
+    background-color: red;
+}
+.content-type-c{
+    width: 1200px;
+    border-top: 2px solid red;
+    margin: 0px auto;
+}
+.content-type-left{
+    width: 210px;
+    background-color: #c23131;
+    float: left;
+}
+.content-type-left ul{
+    list-style-type: none;
+}
+.content-type-left ul li{
+    font-size: 12px;
+    color: white;
+    line-height: 34px;
+    position: relative;
+}
+.content-type-left p{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url("img/indexhead_sprite.png");
+    background-repeat: no-repeat;
+    background-position:0px -517px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.content-type-left .span1{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 20px;
+    height: 18px;
+    background-image: url("img/nav.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.content-type-left .span2{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 20px;
+    height: 18px;
+    background-image: url("img/nav.png");
+    background-repeat: no-repeat;
+    background-position: 0px -45px;
+}
+.content-type-left .span3{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 20px;
+    height: 18px;
+    background-image: url("img/nav.png");
+    background-repeat: no-repeat;
+    background-position: 0px -88px;
+}
+.content-type-left .span4{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 20px;
+    height: 18px;
+    background-image: url("img/nav.png");
+    background-repeat: no-repeat;
+    background-position: 0px -132px;
+}
+.content-type-left .span5{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 20px;
+    height: 18px;
+    background-image: url("img/nav.png");
+    background-repeat: no-repeat;
+    background-position: 0px -171px;
+}
+.content-type-left .span6{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 20px;
+    height: 18px;
+    background-image: url("img/nav.png");
+    background-repeat: no-repeat;
+    background-position: 0px -212px;
+}
+.content-type-left .span7{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 20px;
+    height: 18px;
+    background-image: url("img/nav.png");
+    background-repeat: no-repeat;
+    background-position: 0px -250px;
+}
+.content-type-left .span8{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 20px;
+    height: 18px;
+    background-image: url("img/nav.png");
+    background-repeat: no-repeat;
+    background-position: 0px -290px;
+}
+.content-type-left .span9{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 20px;
+    height: 18px;
+    background-image: url("img/nav.png");
+    background-repeat: no-repeat;
+    background-position: 0px -330px;
+}
+.content-type-left .span10{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 20px;
+    height: 18px;
+    background-image: url("img/nav.png");
+    background-repeat: no-repeat;
+    background-position: 0px -368px;
+}
+.content-type-left .span11{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 20px;
+    height: 18px;
+    background-image: url("img/nav.png");
+    background-repeat: no-repeat;
+    background-position: 0px -406px;
+}
+.content-type-left .span12{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 20px;
+    height: 18px;
+    background-image: url("img/nav.png");
+    background-repeat: no-repeat;
+    background-position: 0px -442px;
+}
+.content-type-center{
+    width: 750px;
+    float: left;
+    position: relative;
+}
+.content-type-center-img ul{
+    list-style-type: none;
+    position: absolute;
+    bottom: 15px;
+    right: 300px;
+}
+.content-type-center-img ul li{
+    display: inline-block;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: #bebebe;
+}
+#li1{
+    background-color: red;
+}
+.content-type-right{
+    width: 240px;
+    float: left;
+    background-color: white;
+}
+.content-type-right-top>a {
+    display: inline-block;
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+    width: 80px;
+    border-bottom: 1px solid gainsboro;
+    padding: 20px 0px;
+}
+.content-type-right-center ul{
+    list-style-type: none;
+    border-bottom: 1px solid ghostwhite;
+    padding: 10px 10px;
+}
+.content-type-right-center ul li{
+    font-size: 12px;
+    color: gray;
+    line-height: 20px;
+}
+.content-type-right-center ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.content-type-right-down a{
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+    width: 79px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #eeeeee;
+    border-top: 2px solid gray;
+    border-right: 1px solid gainsboro;
+}
+.content-type-right-down #chong{
+    color: red;
+}
+.content-type-right-down .phone{
+    display:inline-block;
+}
+.content-type-right-down input{
+    width: 100px;
+}
+.content-type-right-down label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.content-type-right-down span{
+    color: red;
+}
+.content-type-right-down #li{
+    background-color: red;
+    margin: 0px 45px 20px 45px;
+    border: none;
+    height: 30px;
+    color: white;
+}
+.content-type-right-down .phone{
+    margin:  15px 0px;
+}
+.content-type-right-down .value{
+    margin: 0px 0px 15px 0px;
+}
+.content-type-right-down .jie {
+    margin: 0px 0px 15px 0px;
+}
+/*商品分类结束*/
+/*食品饮料*/
+/*食品饮料上*/
+.content-drink{
+    width: 1205px;
+    margin: 0px auto;
+}
+.content-drink-top{
+    width: 1200px;
+    height: 50px;
+    border-bottom: 2px solid red;
+    margin: 0px auto;
+}
+.content-drink-top-left{
+    float: left;
+    margin-top: 25px;
+}
+.content-drink-top-left p{
+    display: inline-block;
+    font-size: 14px;
+    color: red;
+}
+.content-drink-top-right{
+    width: 240px;
+    height: 50px;
+    float: right;
+}
+.content-drink-top-right ul{
+    list-style-type: none;
+}
+.content-drink-top-right ul li{
+    display: inline-block;
+    color: #999999;
+    font-size: 12px;
+    margin-top: 25px;
+    text-align: right;
+}
+.content-drink-top-right ul .drink{
+    width: 1px;
+    height: 10px;
+    background-color: gainsboro;
+}
+/*食品饮料上结束*/
+.content-drink-left{
+    width: 210px;
+    float: left;
+}
+.content-drink-left-top p span{
+    display: inline-block;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.content-drink-left-top p{
+    border-bottom: 1px dashed darkgray;
+}
+.content-drink-left-down #ban{
+   color: red;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.content-drink-left-down p{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    margin: 12px 0px;
+}
+.content-drink-left-down img{
+    margin-bottom: 16px;
+}
+.content-drink-center{
+    width: 330px;
+    float: left;
+    position: relative;
+}
+.content-drink-center ul{
+    list-style-type: none;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+}
+.content-drink-center ul li{
+   display: inline-block;
+    width: 30px;
+    height:4px ;
+    background-color: #bebebe;
+}
+.content-drink-center ul .cen{
+    background-color: red;
+}
+.content-drink-right{
+    width:663px;
+    float: left;
+}
+.content-drink-right-l{
+    width: 220px;
+    float: left;
+}
+.content-drink-right-l-t{
+    width: 220px;
+    margin: 15px 0px;
+    border-bottom: 1px solid gainsboro;
+}
+.content-drink-right-l-t #eat{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+.content-drink-right-l-t p{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+}
+.content-drink-right-l-d{
+    width: 220px;
+}
+.content-drink-right-l-d #jiu{
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+.content-drink-right-l-d p{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+}
+.content-drink-right-l-d img{
+    margin: 15px 0px;
+}
+.content-drink-right-c{
+    width: 220px;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    float: left;
+}
+.content-drink-right-c #summer{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+.content-drink-right-c p{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+}
+.content-drink-right-c img{
+    margin: 7px 0px;
+}
+.content-drink-right-r{
+    width: 220px;
+    float:right;
+}
+.content-drink-right-r-t{
+    width: 220px;
+    border-bottom:1px solid gainsboro ;
+}
+.content-drink-right-r-t #he{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+.content-drink-right-r-t p{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+}
+.content-drink-right-r-t img{
+    margin-top: 10px;
+}
+.content-drink-right-r-d{
+    width: 220px;
+}
+.content-drink-right-r-d #qixi{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+.content-drink-right-r-d p{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+}
+.content-drink-right-r-d img{
+    margin: 12px 0px;
+}
+/*食品饮料结束*/
+/*个护厨卫*/
+/*个护厨卫上*/
+.content-person{
+    width: 1208px;
+    margin: 0px auto;
+}
+.content-person-top{
+    width: 1200px;
+    height: 50px;
+    border-bottom: 2px solid greenyellow;
+    margin: 0px auto;
+}
+.content-person-top-left{
+    float: left;
+}
+.content-person-top-left p{
+    display: inline-block;
+    font-size: 14px;
+    color: red;
+    margin-top: 25px;
+}
+.content-person-top-right{
+    width: 255px;
+    float: right;
+}
+.content-person-top-right ul li{
+    display: inline-block;
+    color: #999999;
+    font-size: 12px;
+    margin-top: 25px;
+    text-align: right;
+}
+.content-person-top-right .person{
+    width: 1px;
+    height: 10px;
+    background-color: gainsboro;
+}
+.content-person-top-right ul{
+    list-style-type: none;
+}
+.content-person-left{
+    width: 210px;
+    height: 540px;
+    border-right: 1px solid gainsboro;
+    float: left;
+}
+.content-person-left-t p span{
+    display: inline-block;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.content-person-left-t p{
+    border-bottom: 1px dashed darkgray;
+}
+.content-person-left-c #moon{
+   color: greenyellow;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.content-person-left-c p{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    margin: 12px 0px;
+}
+.content-person-left-d{
+    border-top: 1px solid gainsboro;
+}
+.content-person-left-d #piao {
+    color: greenyellow;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.content-person-left-d p{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    margin: 12px 0px;
+}
+.content-person-center{
+    width: 330px;
+    height: 540px;
+    float: left;
+}
+.content-person-center-t{
+    position: relative;
+}
+.content-person-center-t ul{
+    list-style-type: none;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+}
+.content-person-center-t ul li{
+    display: inline-block;
+    width: 30px;
+    height:4px ;
+    background-color: #bebebe;
+}
+.content-person-center-t ul .cen1{
+    background-color: red;
+}
+.content-person-center-d{
+    position: relative;
+}
+.content-person-center-d p{
+    width: 150px;
+    font-size: 14px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.content-person-center-d p span{
+    display: inline-block;
+}
+.content-person-center-d #bi{
+    font-weight: 700;
+}
+.content-person-center-d #xin{
+    font-size: 12px;
+    color: #999999;
+}
+.content-person-center-d #life{
+    width: 130px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.content-person-center-d img{
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+.content-person-right{
+    width: 665px;
+    height: 540px;
+    float:left;
+}
+.content-person-right-l{
+    width: 220px;
+    height: 540px;
+    border-left: 1px solid gainsboro;
+    float: left;
+}
+.content-person-right-l-t{
+    border-bottom: 1px solid gainsboro;
+}
+.content-person-right-l-t #zi{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+}
+.content-person-right-l-t p{
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+}
+.content-person-right-l-t img{
+    margin-top: 15px;
+}
+.content-person-right-l-c{
+    border-bottom: 1px solid gainsboro;
+}
+.content-person-right-l-c #hu{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+}
+.content-person-right-l-c p{
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+}
+.content-person-right-l-c img{
+    margin-top: 15px;
+}
+.content-person-right-l-d{
+    width: 220px;
+    height: 230px;
+    border-top: 1px solid gainsboro;
+}
+.content-person-right-l-d #qing{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+}
+.content-person-right-l-d p{
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+}
+.content-person-right-l-d img{
+    margin-top: 15px;
+}
+.content-person-right-c{
+    width: 220px;
+    border-left: 1px solid gainsboro;
+    float: left;
+}
+.content-person-right-c-t{
+    border-bottom: 1px solid gainsboro;
+    border-top: none;
+}
+.content-person-right-c-t #mei{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+}
+.content-person-right-c-t p{
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+}
+.content-person-right-c-t img{
+    margin-top: 15px;
+}
+.content-person-right-c-d{
+    border-top: 1px solid gainsboro;
+}
+.content-person-right-c-d #ying{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+}
+.content-person-right-c-d p{
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+}
+.content-person-right-c-d img{
+    margin-top: 15px;
+}
+.content-person-right-r{
+    width: 220px;
+    border-left: 1px solid gainsboro;
+    float: left;
+}
+.content-person-right-r-t{
+    border-bottom: 1px solid gainsboro;
+}
+.content-person-right-r-t #kou{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+}
+.content-person-right-r-t p{
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+}
+.content-person-right-r-t img{
+    margin-top: 15px;
+}
+.content-person-right-r-d #fa{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+}
+.content-person-right-r-d p{
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+}
+.content-person-right-r-d img{
+    margin-top: 15px;
+}
+/*个护厨卫结束*/
+.footer{
+    width: 1200px;
+    margin: 20px auto;
+}
+.footer ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 10px 0px;
+}
+.footer ul li{
+    display: inline-block;
+    color: #999999;
+}
+.footer ul .fo{
+    width: 1px;
+    height: 10px;
+    background-color: grey;
+}
+.footer p{
+    color: #999999;
+    text-align: center;
+}
